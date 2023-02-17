@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints out single digit numbers 
+ * main - prints out single digit numbers
  * single digit number start from 0
- * Retuen: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
