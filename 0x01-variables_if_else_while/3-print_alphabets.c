@@ -3,8 +3,8 @@
  * main - prints alphabets in lower case
  * and alphabets in upper case
  * followed by a newline
- */
-
+ * Return: 0 (Success)
+*/
 int main(void)
 {
 	char az;
