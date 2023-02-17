@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
+/**
+ * main - prints whether a variable stored in is either positive or negative or zero
+ *
+ *Return: 0 (Success)
+ * */
 
 /* betty style doc for function main goes there */
 int main(void)
