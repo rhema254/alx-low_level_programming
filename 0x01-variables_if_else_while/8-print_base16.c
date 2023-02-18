@@ -8,7 +8,6 @@ int main(void)
 {
 	char az;
 	int a;
-	
 	for (a = 48; a < 58; a++)
 	{
 		putchar(a);
