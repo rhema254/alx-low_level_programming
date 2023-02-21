@@ -3,7 +3,8 @@
 /**
  * main - prints _putchar to stdout
  * followed by a newline
- * Return: 0 
+ * Code by Tesh254
+ * Return:0 (Success)
  */
 
 int main(void)
