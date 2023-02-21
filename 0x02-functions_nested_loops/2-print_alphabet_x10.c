@@ -18,6 +18,6 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	while (a < 9);
-	return (0);
+	while (a < 10);
+	_putchar('\n');
 }
