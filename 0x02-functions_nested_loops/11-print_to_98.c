@@ -4,14 +4,14 @@
 /**
  * print_to_98 - prints the values from n to 98
  * followed by a space and a comma
- * @n: is the starting integer 
+ * @n: is the starting integer
  * Return: the values from n to 98
  */
 void print_to_98(int n)
 {
 	if (n > 98)
 	{
-		while (n >=98)
+		while (n >= 98)
 		{
 			printf("%d", n);
 			if (n != 98)
@@ -23,7 +23,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		while (n <= 98) 
+		while (n <= 98)
 		{
 			printf("%d", n);
 			if (n != 98)
