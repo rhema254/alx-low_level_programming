@@ -14,7 +14,7 @@ void times_table(void)
 	{
 		c = a * b;
 		
-		if (c < 10 && j != 0)
+		if (c < 10 && b != 0)
 		{
 			_putchar(44);
 			_putchar(32);
@@ -31,7 +31,7 @@ void times_table(void)
 			_putchar(44);
 			_putchar(32);
 			_putchar('0' + d);
-			_putchar('0' + m);
+			_putchar('0' + e);
 		}
 	}
 	_putchar('\n');
