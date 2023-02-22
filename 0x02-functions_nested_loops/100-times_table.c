@@ -1,7 +1,7 @@
 #include "main.h"
 
-/** 
- * print _times_table - print the n times table, starting with 0.
+/**
+ * print_times_table - print the n times table, starting with 0.
  * Description: if n is greater than 15 or less than 0, print nothing.
  * @n: the integer that is used in the operation
  */
@@ -10,7 +10,7 @@ void print_times_table(int n)
 {
 	int x = 0, y, z;
 
-	if (n > 15 || n <0)
+	if (n > 15 || n < 0)
 		return;
 	while (x <= n)
 	{
@@ -40,7 +40,6 @@ void print_times_table(int n)
 		
 			if (y != n)
 			{
-				_putchar(',');
 				_putchar(',');
 			}
 		}
