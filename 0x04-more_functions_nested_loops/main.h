@@ -1,5 +1,9 @@
-#ifndef main_h
-#define main_h
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * Description: Header contains prototypes for all functions
+ */
 
 int _isupper(int c);
 int _isdigit(int c);
