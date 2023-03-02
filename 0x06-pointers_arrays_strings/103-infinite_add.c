@@ -14,14 +14,14 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
 {
 	int d1 = 0, d2 = 0, pq, ch, es1, es2, add = 0;
 
-	while (*(n1 + c1) != '\0')
+	while (*(n1 + d1) != '\0')
 		d1++;
-	while (*(n2 + c2) != '\0')
+	while (*(n2 + d2) != '\0')
 		d2++;
-	if (c1 >= c2)
-		ch = c1;
+	if (d1 >= d2)
+		ch = d1;
 	else
-		ch = c2;
+		ch = d2;
 	if (size_r <= ch + 1)
 		return (0);
 	r[ch + 1] = '\0';
