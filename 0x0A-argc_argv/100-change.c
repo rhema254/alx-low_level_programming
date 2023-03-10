@@ -4,7 +4,8 @@
 
 /**
 * main - prints the minimum no of coins
-* to make chanege for an amt of money
+* to make chanege for an amt of mone
+* cents - change to give
 * @argc: number of arguments
 * @argv: array of arguments
 * Return: 0 (success), 1 (error)
