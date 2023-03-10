@@ -1,23 +1,18 @@
 #include "main.h"
 /**
- * main - multiplies two nums
- * @argc: number of arguments
- * @argv: arguments
- * Return: 0 if error 1.
+ * main - prints all args it receives
+ * @argc: number of args
+ * @argv: args
+ * Return: 0
  */
 int main(int argc, char **argv)
 {
-	int a = 0, b = 0, mult;
+	int i;
 
-	if (argc != 3)
+	for (i = 0; i < argc; i++)
 	{
-		printf("Error\n");
-		return (1);
+		printf("%s\n", argv[i]);
 	}
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	mult = a * b;
 
-	printf("%d\n", mult);
 	return (0);
 }
