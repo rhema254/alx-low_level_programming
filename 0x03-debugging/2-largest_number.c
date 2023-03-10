@@ -19,3 +19,7 @@ int largest_number(int a, int b, int c)
 		largest = c;
 
 	return (largest);
+<<<<<<< HEAD
+=======
+}
+>>>>>>> df40835fced1bff7ebe0da19c164fdf9351bb9ed

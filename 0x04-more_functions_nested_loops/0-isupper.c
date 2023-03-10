@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> df40835fced1bff7ebe0da19c164fdf9351bb9ed
 #include "main.h"
 /**
  * _isupper - check if character c is upper case
