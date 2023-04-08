@@ -20,12 +20,12 @@ unsigned int binary_to_unit(const char *b)
 
 	for (n = 0; b[n]; n++)
 	{
-		if (b[n] != 0 || b[n] != 1)
+		if (b[n] < '0' || b[n] > '1')
 		{
 			return (0);
 		}
 
-		Number = 2 * Number + (b[n] - 0);
+		Number = 2 * Number + (b[n] - '0');
 	}
 	return (Number);
 }
