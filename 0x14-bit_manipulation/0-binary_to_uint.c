@@ -25,7 +25,7 @@ unsigned int binary_to_unit(const char *b)
 			return (0);
 		}
 
-		Number = 2 * Number + (b[n] - '0');
+		Number = 2 * Number + (b[n] - 0);
 	}
 	return (Number);
 }
