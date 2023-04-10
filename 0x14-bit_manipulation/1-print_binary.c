@@ -8,9 +8,7 @@
 
 void print_binary(unsigned long int n)
 {
-	int j;
-	
-	int count = 0;
+	int j, count = 0;
 
 	unsigned int long current;
 
