@@ -8,17 +8,23 @@
 
 void print_binary(unsigned long int n)
 {
-	if (n >> 0)
-	{
-		if (n >> 1)
-			print_binary(n >> 1);
+	int k, count = 0;
+	unsigned long int current;
 
-		_putchar((n & 1) + '0');
-	}
-	else
+
+	for (k = 63; k >= 0; k--)
 	{
+		current = n >> k;
+
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
+	}
+	if (!count)
 		_putchar('0');
-	}
+
 }
-
-

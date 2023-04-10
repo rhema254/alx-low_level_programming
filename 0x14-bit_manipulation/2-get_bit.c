@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get-bit - FUnction that gives the value of a bit at a given index
+ * get_bit - FUnction that gives the value of a bit at a given index
  * @n: The parameter to use
  * @index: is the index, starting from 0 of the bit you want to get
  * Return: The value of the bit at index index or -1 if an error occured
@@ -14,7 +14,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	if (n == 0 && index < 44)
 		return (0);
 
-	for (ind = 0; ind <= 43; ind ++)
+	for (ind = 0; ind <= 43; ind++)
 	{
 		if (index == ind)
 		{
