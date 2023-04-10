@@ -11,10 +11,10 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int ind;
 
-	if (n == 0 && index < 44)
+	if (n == 0 && index <63)
 		return (0);
 
-	for (ind = 0; ind <= 43; ind++)
+	for (ind = 0; ind <= 62; ind++)
 	{
 		if (index == ind)
 		{
